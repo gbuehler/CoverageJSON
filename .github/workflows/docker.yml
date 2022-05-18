@@ -65,6 +65,3 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           expire-in: 0
-© 2022 GitHub, Inc.
-Terms
-Privacy
