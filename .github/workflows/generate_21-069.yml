@@ -19,7 +19,7 @@ jobs:
           path: standard_template/standard
       - name: Generate document
         run: |
-          cd standard_template/standard
+          cd standard_template/standard/
           metanorma compile -t ogc -x xml,html,pdf --agree-to-terms standard_document.adoc
           cp standard_document.html ../../master/21-069.html
           cd ../../master
