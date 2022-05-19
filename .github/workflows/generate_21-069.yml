@@ -20,7 +20,7 @@ jobs:
       - name: Generate document
         run: |
           cd standard_template/standard
-          metanorma compile --agree-to-terms -t ogc -x xml,html,doc document.adoc
+          metanorma compile --agree-to-terms -t ogc -x xml,html,pdf standard_document.adoc
           cp document.html ../../master/21-069.html
           cd ../../main
           git config --global user.name 'opengeospatial'
