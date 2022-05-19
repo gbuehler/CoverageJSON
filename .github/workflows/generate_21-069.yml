@@ -16,10 +16,10 @@ jobs:
         uses: actions/checkout@v3 # checkout the repository content to github runner
         with:
           repository: gbuehler/CoverageJSON
-          path: standard_template/standard
+          path: 21-069
       - name: Generate document
         run: |
-          cd standard_template/standard/
+          cd 21-069/standard_template/standard/
           metanorma compile -t ogc -x xml,html,pdf --agree-to-terms standard_document.adoc
           cp standard_document.html ../../master/21-069.html
           cd ../../master
