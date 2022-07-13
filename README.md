@@ -22,4 +22,4 @@ See the [Wiki](https://github.com/opengeospatial/CoverageJSON/wiki) for details 
 
 Any contributor to this repo should understand that any contributions, if accepted by the OGC Membership, shall be incorporated into OGC standards documents and that all copyright and intellectual property shall be vested in the University of Reading.
 
-hello
+hello world
